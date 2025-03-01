@@ -33,5 +33,16 @@ namespace MSB_PTBVIP23.Properties {
                 return ((string)(this["QuanLyMusicBoxPhotoBoothVIPConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Immagorst\\MSSQLSERVER01;Initial Catalog=QuanLyMSBPTBVIP;Integrated Se" +
+            "curity=True;TrustServerCertificate=True")]
+        public string QuanLyMSBPTBVIPConnectionString {
+            get {
+                return ((string)(this["QuanLyMSBPTBVIPConnectionString"]));
+            }
+        }
     }
 }

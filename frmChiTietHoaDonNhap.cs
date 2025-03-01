@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MSB_PTBVIP23
 {
-    public partial class Form1: Form
+    public partial class frmChiTietHoaDonNhap: Form
     {
-        public Form1()
+        public frmChiTietHoaDonNhap()
         {
             InitializeComponent();
         }
