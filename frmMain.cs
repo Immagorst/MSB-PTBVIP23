@@ -9,11 +9,12 @@ namespace MSB_PTBVIP23
         public frmMain()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true; // Đặt form chính là MDI Container
+             // Đặt form chính là MDI Container
         }
 
         private void OpenChildForm(Form childForm)
